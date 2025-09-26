@@ -10,8 +10,8 @@ This repository showcases different concepts of **JavaScript (ES6+), DOM manipul
 | Project | Description | Live Demo / Repo |
 |---------|-------------|------------------|
 | **Project 1** |  A Rock-Paper-Scissor game with DOM manipulation and local storage  | [https://github.com/levelupsoftwares/JS-Projects/tree/main/Rock-Paper-Scissor%20game](#) |
-| **Project 2** | Short description (e.g., To-do app with local storage). |[Source Code](#) |
-| **Project 3** | Short description (e.g., Weather app using API). | [Source Code](#) |
+| **Project 2** | A Todo App with Local storage and  |[https://github.com/levelupsoftwares/JS-Projects/tree/main/Todo%20App](#) |
+
 
   
 

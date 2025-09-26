@@ -31,4 +31,4 @@ This app helps users manage daily tasks by adding, deleting, and marking them as
    git clone https://github.com/levelupsoftwares/JS-Projects.git
 2. After cloning, you can go into this project-folder like this:
   ```bash
-     cd JS-Projects/Rock-Paper-Scissor\ game
+     cd JS-Projects/Todo\ App
