@@ -1,4 +1,4 @@
-# JavaScript Projects 🚀  
+# JavaScript Projects   
 
 A collection of my JavaScript projects created while learning and practicing web development.  
 This repository showcases different concepts of **JavaScript (ES6+), DOM manipulation, APIs, and problem-solving skills**.  
@@ -9,15 +9,15 @@ This repository showcases different concepts of **JavaScript (ES6+), DOM manipul
 
 | Project | Description | Live Demo / Repo |
 |---------|-------------|------------------|
-| **Project 1** | Short description (e.g., A simple calculator using vanilla JS). | [Live Demo](#) · [Source Code](#) |
-| **Project 2** | Short description (e.g., To-do app with local storage). | [Live Demo](#) · [Source Code](#) |
-| **Project 3** | Short description (e.g., Weather app using API). | [Live Demo](#) · [Source Code](#) |
+| **Project 1** | Short description (e.g., A simple calculator using vanilla JS). | [Source Code](#) |
+| **Project 2** | Short description (e.g., To-do app with local storage). |[Source Code](#) |
+| **Project 3** | Short description (e.g., Weather app using API). | [Source Code](#) |
 
-*(Update this table as you add more projects!)*  
+  
 
 ---
 
-## 🎯 Features  
+##  Features  
 
 - Hands-on practice with **core JavaScript concepts**  
 - Covers **DOM manipulation**, **events**, and **APIs**  
@@ -26,7 +26,7 @@ This repository showcases different concepts of **JavaScript (ES6+), DOM manipul
 
 ---
 
-## 🛠️ Technologies Used  
+##  Technologies Used  
 
 - **HTML5**  
 - **CSS3**  
@@ -34,7 +34,7 @@ This repository showcases different concepts of **JavaScript (ES6+), DOM manipul
 
 ---
 
-## 🚀 How to Use  
+##  How to Use  
 
 1. Clone this repo:  
    ```bash
