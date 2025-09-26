@@ -41,4 +41,4 @@ The game lets users play against the computer, keeps track of scores, and stores
 
 ##  Preview
 
-![Game Screenshot](./images/shgame.png)
+![Game Screenshot](https://github.com/levelupsoftwares/JS-Projects/blob/main/Rock-Paper-Scissor%20game/images/shgame.png)
