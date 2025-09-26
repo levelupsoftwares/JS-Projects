@@ -9,7 +9,7 @@ This repository showcases different concepts of **JavaScript (ES6+), DOM manipul
 
 | Project | Description | Live Demo / Repo |
 |---------|-------------|------------------|
-| **Project 1** | Short description (e.g., A simple calculator using vanilla JS). | [Source Code](#) |
+| **Project 1** |  A Rock-Paper-Scissor game with DOM manipulation and local storage  | [https://github.com/levelupsoftwares/JS-Projects/tree/main/Rock-Paper-Scissor%20game](#) |
 | **Project 2** | Short description (e.g., To-do app with local storage). |[Source Code](#) |
 | **Project 3** | Short description (e.g., Weather app using API). | [Source Code](#) |
 
@@ -36,6 +36,8 @@ This repository showcases different concepts of **JavaScript (ES6+), DOM manipul
 
 ##  How to Use  
 
-1. Clone this repo:  
+1. Clone this repository or download the folder:  
    ```bash
-   git clone https://github.com/your-username/javascript-projects.git
+    git clone https://github.com/levelupsoftwares/JS-Projects.git
+
+
