@@ -35,6 +35,8 @@ The game lets users play against the computer, keeps track of scores, and stores
 2. After cloning, you can go into this project-folder like this:
   ```bash
      cd JS-Projects/Rock-Paper-Scissor\ game
+
+     
 ---
 
 ##  Preview
