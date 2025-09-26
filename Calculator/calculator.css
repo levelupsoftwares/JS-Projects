@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+.blackB{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(109, 102, 102);
+
+    font-weight: bold;
+    font-size: 650;
+}
+.yellowB{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color:rgba(247, 131, 23, 0.973);
+
+    font-weight: bold;
+    font-size:large;
+}
+.js-calculatiPage{
+    color: white;
+    font-size:large;
+    font-weight: bold;
+}

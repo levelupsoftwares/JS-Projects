@@ -1,0 +1,133 @@
+<!--Update Calculator By local-Storage -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+            <link rel="stylesheet" href="calculator.css">
+        </head>
+        <body>
+            <p>
+                <p class="js-calculatiPage"></p>
+                               
+                <button class="num1 blackB" onclick="
+                    //  console.log(calculation += '1') ;  
+                    funCaluation('1');  ">
+                1</button>
+                               
+                <button class="num2 blackB" onclick="
+                        funCaluation('2'); "
+                >2</button>
+                            
+               <button class="num3 blackB" onclick="
+                 funCaluation('3'); "
+               >3</button>
+                            
+                <button class="plus yellowB" onclick="
+                 funCaluation('+'); ">
+                +</button>
+        </p>
+                            
+                            
+                            
+        <p>
+            <button class="num4 blackB" onclick="
+                funCaluation('4'); "
+        >4</button>
+                            
+        <button class="num5 blackB" onclick="
+            funCaluation('5'); "
+        >5</button>
+                             
+        <button class="num6 blackB" onclick="
+            funCaluation('6'); "
+        >6</button>
+                            
+        <button class="minus yellowB" onclick="
+        funCaluation('-'); ">
+        -</button>
+    </p>
+                            
+        <p>
+            <button class="num7 blackB" onclick="
+                funCaluation('7');     ">
+        7</button>
+                              
+    <button class="num8 blackB" onclick="
+                funCaluation('8'); "
+        >8</button>
+                            
+    <button class="num9 blackB" onclick="
+                funCaluation('9'); "
+    >9</button>
+    <button class="multiply yellowB" onclick="
+            funCaluation('*');  ">*</button>
+        </p>
+                            
+                            
+        <p>
+            <button class="zero blackB" onclick="
+                    funCaluation('0'); ">0</button>
+                                    
+            <button class="point blackB" onclick="
+                funCaluation('.'); ">.</button>
+                            
+            <button class="equal blackB" onclick="
+                            
+                equalResult('=');
+            ">=</button>
+                                 
+            <button class="divide yellowB" onclick="
+               funCaluation('/'); ">/</button>
+                            
+                            
+        </p>
+    <p>
+                            
+            <button class="Clear blackB" onclick=
+              "calculation = '';
+               localStorage.removeItem('stored');         //remove for memory
+               console.log('Cleared.');  ">Clear</button>            
+     </p>
+
+                            
+    <script>
+        let calculation = localStorage.getItem('stored') || '' ;
+                            
+        if(localStorage.getItem('stored') === null){
+            console.log(0);     // if null stored in "stored" then by clicking equal it give 0
+        }
+        else{
+            console.log( localStorage.getItem('stored')); //when some value init.. then print it
+                            
+        }
+                            
+        //function for all buttons
+        function funCaluation(value){
+            (calculation+=value);
+            return onPageCalculation(calculation);
+                                     
+        }
+                                    
+        //function for equal
+                                    function equalResult(equal){
+                                        
+            calculation = eval(calculation);
+                                        
+            // console.log(typeof(calculation));
+            // calculation = JSON.stringify(calculation);  // no need line of code
+                                        
+            localStorage.setItem('stored', calculation);     //stored in local memory
+                                     
+            onPageCalculation();
+                                    }
+
+            //calculation on page function
+
+            function onPageCalculation(){
+                document.querySelector('.js-calculatiPage').innerHTML = calculation;
+                }
+    </script>
+</body>
+</html>
