@@ -24,6 +24,12 @@ This app helps users manage daily tasks by adding, deleting, and marking them as
 
 ---
 
+##  Preview
+
+![Todo App Screenshot](./ShTodo.png)
+
+---
+
 ##  How to Run  
 
 1. Clone this repository (skip this step if you already done it):  
@@ -34,6 +40,3 @@ This app helps users manage daily tasks by adding, deleting, and marking them as
      cd JS-Projects/Todo\ App
 ---
 
-##  Preview
-
-![Todo App Screenshot](./ShTodo.png)
