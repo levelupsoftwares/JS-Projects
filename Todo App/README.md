@@ -36,4 +36,4 @@ This app helps users manage daily tasks by adding, deleting, and marking them as
 
 ##  Preview
 
-![Todo App Screenshot](./screenShootMd.png)
+![Todo App Screenshot](./ShTodo.png)

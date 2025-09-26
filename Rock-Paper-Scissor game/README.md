@@ -39,4 +39,4 @@ The game lets users play against the computer, keeps track of scores, and stores
 
 ##  Preview
 
-![Game Screenshot](./images/screenShotMd.png)
+![Game Screenshot](./images/ShGame.png)
