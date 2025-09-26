@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <link rel="stylesheet" href="rock-paper-sizzor.css">
+</head>
+<body>
+    <h2>Rock Paper Sessior Game</h2>
+    <button class="rock js-rock-button"
+       onclick="
+        
+            
+      //   playerGame('rock');
+
+            // saveStatus();
+            // resultShower();
+
+         
+      " >
+           <img src="images/rock-emoji.png" alt="Rock" class="button-img">        
+    </button>
+
+
+    <button class="paper js-paper-button" 
+       onclick=
+                "  
+                
+             //   playerGame('paper');
+
+                //saveStatus();
+                // resultShower();"
+                >
+                 <img src="images/paper-emoji.png" alt="Paper" class="button-img">        
+    </button>
+
+
+          <button class="scissors js-scissors-button"
+
+                    onclick="  
+
+                       // playerGame('scissors');            
+            
+                      //  saveStatus();
+                        // resultShower();
+            " >
+                  <img src="images/scissors-emoji.png" alt="Scissor" class="button-img">         
+          </button>
+                       <!--HTML elements for JS-->
+
+                        <p class="js-result css-result">Result</p>
+                        <p class="js-moves"></p>
+                        <p class="js-p-status css-status">Wins: 0, Losses: 0, Ties: 0</p>
+
+          <button class="reset-button" 
+           onclick=" 
+                          Statuscounter.wins = 0;
+                          Statuscounter.ties = 0;
+                          Statuscounter.losses = 0;
+                      //removing from local storage
+                      localStorage.removeItem('memory');
+
+                      updateStatus();
+
+                     ">Reset Score</button>
+
+                     
+                     <button class="auto-play-button" onclick="
+                      autoplay();
+                     ">Auto Play</button>
+
+
+
+    <script src="rock-paper-sizzor.js"></script>
+</body>
+</html>

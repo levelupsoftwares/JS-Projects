@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(44, 41, 41);
+    color: whitesmoke;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:xx-large;
+}
+.button-img,.result-moves{
+    height:50px;
+    
+    border-radius: 90px;
+    
+}
+.paper , .rock , .scissors{
+    background-color:transparent;
+    border-radius: 50px;
+    border: 3px solid white;
+    cursor: pointer;
+
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+.css-result{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    
+}
+.reset-button,
+.auto-play-button{
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+.css-status{
+    margin-top: 60px;
+}
