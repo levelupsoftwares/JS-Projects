@@ -26,6 +26,12 @@ The game lets users play against the computer, keeps track of scores, and stores
 
 ---
 
+##  Preview
+
+![Game Screenshot](https://github.com/levelupsoftwares/JS-Projects/blob/main/Rock-Paper-Scissor%20game/images/shgame.png)
+
+---
+
 ##  How to Run  
 
 1. Clone this repository or download the folder(skip this step if you already done it):  
@@ -36,8 +42,3 @@ The game lets users play against the computer, keeps track of scores, and stores
   ```bash
      cd JS-Projects/Rock-Paper-Scissor\ game
 
----
-
-##  Preview
-
-![Game Screenshot](https://github.com/levelupsoftwares/JS-Projects/blob/main/Rock-Paper-Scissor%20game/images/shgame.png)
