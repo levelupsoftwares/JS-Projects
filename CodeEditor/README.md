@@ -35,4 +35,4 @@ This project allows users to write, edit, and preview code directly in the brows
 1. Clone this repository or download the folder:  
    ```bash
    git clone https://github.com/levelupsoftwares/JS-Projects.git
-2.cd JS-Projects/CodeEditor
+2. cd JS-Projects/CodeEditor

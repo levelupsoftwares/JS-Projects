@@ -12,6 +12,7 @@ This repository showcases different concepts of **JavaScript (ES6+), DOM manipul
 | **Project 1** |  A Rock-Paper-Scissor game with DOM manipulation and local storage  | [https://github.com/levelupsoftwares/JS-Projects/tree/main/Rock-Paper-Scissor%20game](#) |
 | **Project 2** | A Todo App with Local storage and  |[https://github.com/levelupsoftwares/JS-Projects/tree/main/Todo%20App](#) |
 | **Project 3** | A simple Calculator App  |[https://github.com/levelupsoftwares/JS-Projects/tree/main/Calculator](#) |
+| **Project 4** | Web Based Code Editor  |[https://github.com/levelupsoftwares/JS-Projects/tree/main/CodeEditor](#) |
 
 
   
